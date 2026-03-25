@@ -92,3 +92,4 @@ for K in K_array:
 
     protocol_b_rates.append(np.mean(steady_state_rates))
     print(f"Users (K) = {K:2d} | Baseline = {baseline_rates[-1]:.2f} bps/Hz | Protocol B (PF) = {protocol_b_rates[-1]:.2f} bps/Hz")
+print("done")
